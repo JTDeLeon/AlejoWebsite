@@ -7,13 +7,36 @@ Description: This is the custom theme built by Jonathan Deleon. If need updating
 
 */
 
+// Header Styles
 header {
     .inner-container {
         .logo-container{ 
             display: flex;
+            flex-direction: column;
             .logo-img {
                 margin: auto;
                 width: 250px;
+            }
+            .name-container {
+                margin: auto;
+                display: flex;
+                text-align: center;
+                text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+    
+                .text-container {
+                    margin: auto;
+    
+                    .name {
+                        font-size: 50px;
+                        color: #ab2828;
+                        font-family: 'Great Vibes', Helvetica, sans-serif;
+                        text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+                    }
+    
+                    .titles {
+                        // font-style: italic;
+                    }
+                }
             }
         }
 
@@ -32,8 +55,59 @@ header {
     }
 }
 
+// Common Styles
 body {
     color: #353436;
     letter-spacing: 2px;
     font-family: Lato, 'arial';
+    margin: 20px 0;
+}
+
+// Section Styles
+.sec-001 {
+    background: url('/wp-content/themes/jonathanTheme/images/tempbg.jpg');
+    // background-attachment: fixed;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    .inner-section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .name-container {
+            display: flex;
+            text-align: center;
+
+            .text-container {
+                margin: auto;
+
+                .name {
+                    font-size: 50px;
+                    color: #ab2828;
+                }
+
+                .titles {
+                    // font-style: italic;
+                }
+            }
+        }
+
+        .video-container {
+            margin: auto;
+            border: 3px solid white;
+            position: relative;
+            width: 70%;
+            height: 70%;
+            // padding-bottom: 56.25%;
+
+            .main-video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
 }

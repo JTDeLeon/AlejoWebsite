@@ -7,10 +7,23 @@ Description: This is the custom theme built by Jonathan Deleon. If need updating
 
 */
 header .inner-container .logo-container {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
   header .inner-container .logo-container .logo-img {
     margin: auto;
     width: 250px; }
+  header .inner-container .logo-container .name-container {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); }
+    header .inner-container .logo-container .name-container .text-container {
+      margin: auto; }
+      header .inner-container .logo-container .name-container .text-container .name {
+        font-size: 50px;
+        color: #ab2828;
+        font-family: 'Great Vibes', Helvetica, sans-serif;
+        text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); }
 
 header .inner-container .nav-container {
   display: flex;
@@ -25,4 +38,35 @@ header .inner-container .nav-container {
 body {
   color: #353436;
   letter-spacing: 2px;
-  font-family: Lato, 'arial'; }
+  font-family: Lato, 'arial';
+  margin: 20px 0; }
+
+.sec-001 {
+  background: url("/wp-content/themes/jonathanTheme/images/tempbg.jpg");
+  height: 1000px;
+  background-position: center;
+  background-size: cover; }
+  .sec-001 .inner-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+    .sec-001 .inner-section .name-container {
+      display: flex;
+      text-align: center; }
+      .sec-001 .inner-section .name-container .text-container {
+        margin: auto; }
+        .sec-001 .inner-section .name-container .text-container .name {
+          font-size: 50px;
+          color: #ab2828; }
+    .sec-001 .inner-section .video-container {
+      margin: auto;
+      border: 3px solid white;
+      position: relative;
+      width: 70%;
+      height: 70%; }
+      .sec-001 .inner-section .video-container .main-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
