@@ -7,6 +7,31 @@ Description: This is the custom theme built by Jonathan Deleon. If need updating
 
 */
 
+header {
+    .inner-container {
+        .logo-container{ 
+            display: flex;
+            .logo-img {
+                margin: auto;
+                width: 250px;
+            }
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-evenly;
+            width: 600px;
+            margin: 40px auto;
+
+            .nav-link {
+                color: grey;
+                font-weight: 700;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
 body {
     color: #353436;
     letter-spacing: 2px;

@@ -6,6 +6,22 @@ Author URI: www.jonathantdeleon.com
 Description: This is the custom theme built by Jonathan Deleon. If need updating or upgrading new features, please contact me at jondeleon856@gmail.com
 
 */
+header .inner-container .logo-container {
+  display: flex; }
+  header .inner-container .logo-container .logo-img {
+    margin: auto;
+    width: 250px; }
+
+header .inner-container .nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  margin: 40px auto; }
+  header .inner-container .nav-container .nav-link {
+    color: grey;
+    font-weight: 700;
+    text-decoration: none; }
+
 body {
   color: #353436;
   letter-spacing: 2px;
