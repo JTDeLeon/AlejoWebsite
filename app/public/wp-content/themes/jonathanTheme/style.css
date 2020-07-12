@@ -3,7 +3,7 @@ Theme Name: Jonathan Deleon Custom Theme
 Author: Jonathan Deleon
 Version: 1.0 
 Author URI: www.jonathantdeleon.com
-Description: This is the custom theme built by Jonathan Deleon. If need updating or upgrading new features, please contact me at jondeleon856@gmail.com
+Description: This is the custom theme built by Jonathan Deleon. If need updating or upgrading new features, please contact me at jondeleon856@gmail.com. [Images Sourced From: https://wallpaperplay.com/board/video-camera-wallpapers]
 
 */
 header .inner-container .logo-container {
@@ -134,7 +134,7 @@ body {
             margin: auto; }
 
 .sec-003 .inner-section {
-  background: url("/wp-content/themes/jonathanTheme/images/videocam.jpg");
+  background: url("/wp-content/themes/jonathanTheme/images/background-camera.jpg");
   background-attachment: fixed;
   height: 800px;
   background-position: center;
@@ -149,5 +149,5 @@ body {
       font-size: 30px;
       text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); }
     .sec-003 .inner-section .button-container .btn:hover {
-      color: #ab2828;
-      background: white; }
+      color: white;
+      background: #c54d4d; }
