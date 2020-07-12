@@ -21,7 +21,7 @@ header {
                 margin: auto;
                 display: flex;
                 text-align: center;
-                text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+                // text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
     
                 .text-container {
                     margin: auto;
@@ -30,11 +30,13 @@ header {
                         font-size: 50px;
                         color: #ab2828;
                         font-family: 'Great Vibes', Helvetica, sans-serif;
-                        text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+                        // text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
                     }
     
                     .titles {
                         // font-style: italic;
+                        text-transform: uppercase;
+                        font-weight: 600;
                     }
                 }
             }
@@ -81,8 +83,9 @@ body {
 
 // Section Styles
 .sec-001 {
-    background: url('/wp-content/themes/jonathanTheme/images/tempbg.jpg');
-    // background-attachment: fixed;
+    background: url('/wp-content/themes/jonathanTheme/images/camera-lens.jpg');
+    background-attachment: fixed;
+    // background: black;
     height: 1000px;
     background-position: center;
     background-size: cover;
@@ -111,7 +114,7 @@ body {
 
         .video-container {
             margin: auto;
-            border: 3px solid white;
+            // border: 3px solid white;
             position: relative;
             width: 70%;
             height: 70%;
@@ -178,18 +181,48 @@ body {
                 .imagetitle {
                     font-size: 20px;
                     color: #ab2828;
+                    font-weight: 600;
                 }
                 .description {
                     text-transform: none;
+                    font-weight: 100;
+                    letter-spacing: 1;
                 }
 
                 .btn-container {
-                    margin-top: 80px;
+                    margin-top: 40px;
                     display: flex;
                     .btn {
                         margin: auto;
                     }
                 }
+            }
+        }
+    }
+}
+
+.sec-003 {
+    .inner-section {
+        background: url('/wp-content/themes/jonathanTheme/images/background-camera.jpg');
+        background-attachment: fixed;
+        height: 800px;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+
+        .button-container {
+            margin: auto;
+
+            .btn {
+                background: #ab2828;
+                color: white;
+                text-transform: uppercase;
+                font-size: 30px;
+                text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+            }
+            .btn:hover {
+                color: #ab2828;
+                background: white;
             }
         }
     }

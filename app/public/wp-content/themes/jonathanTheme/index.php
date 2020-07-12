@@ -60,6 +60,14 @@ Template Name: Custom Homepage
     </div>
 </section>
 
+<section class="sec-003">
+    <div class="inner-section">
+        <div class="button-container">
+            <a href="#" class="btn">Schedule a Free Consultation With Me</a>
+        </div>
+    </div>
+</section>
+
 
 <h1>Hello</h1>
 
