@@ -43,7 +43,8 @@ body {
   color: #353436;
   letter-spacing: 2px;
   font-family: Lato, 'arial';
-  margin: 20px 0; }
+  margin: 20px 0;
+  margin-bottom: 0; }
 
 .btn {
   padding: 20px 30px;
@@ -119,6 +120,8 @@ body {
       .sec-002 .inner-section .services-sec .column {
         width: 33.33%;
         margin: auto 20px; }
+        .sec-002 .inner-section .services-sec .column .imagery img {
+          width: 100%; }
         .sec-002 .inner-section .services-sec .column .imagetitle {
           font-size: 20px;
           color: #ab2828;
@@ -134,7 +137,7 @@ body {
             margin: auto; }
 
 .sec-003 .inner-section {
-  background: url("/wp-content/themes/jonathanTheme/images/background-camera.jpg");
+  background: url("/wp-content/themes/jonathanTheme/images/gallery/gallery (60).jpg");
   background-attachment: fixed;
   height: 800px;
   background-position: center;
@@ -151,3 +154,104 @@ body {
     .sec-003 .inner-section .button-container .btn:hover {
       color: white;
       background: #c54d4d; }
+
+.sec-004 {
+  height: 800px;
+  display: flex; }
+  .sec-004 .inner-section {
+    background-attachment: fixed;
+    height: 50%;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; }
+    .sec-004 .inner-section h2 {
+      margin: auto; }
+    .sec-004 .inner-section .icons-container {
+      margin: auto; }
+      .sec-004 .inner-section .icons-container a {
+        font-size: 30px;
+        color: #ab2828;
+        margin: 0 10px; }
+      .sec-004 .inner-section .icons-container .grey {
+        color: #353436; }
+
+.sec-005 .inner-section {
+  background: url("/wp-content/themes/jonathanTheme/images/gallery/gallery (33).jpg");
+  background-attachment: fixed;
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  display: flex; }
+  .sec-005 .inner-section .button-container {
+    margin: auto; }
+    .sec-005 .inner-section .button-container .btn {
+      background: #ab2828;
+      color: white;
+      text-transform: uppercase;
+      font-size: 30px;
+      text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); }
+    .sec-005 .inner-section .button-container .btn:hover {
+      color: white;
+      background: #c54d4d; }
+
+.sec-006 .inner-section {
+  height: 800px;
+  display: flex; }
+  .sec-006 .inner-section .text-container {
+    margin: auto;
+    max-width: 600px;
+    text-align: center; }
+    .sec-006 .inner-section .text-container .btn-container {
+      margin-top: 70px; }
+
+.gallery .inner-section {
+  padding: 50px; }
+  .gallery .inner-section .gallery-container {
+    display: flex;
+    flex-wrap: wrap; }
+    .gallery .inner-section .gallery-container img {
+      width: 23%;
+      padding: 1%; }
+
+.email-signup, .contact-form {
+  width: 50%;
+  margin: auto; }
+
+.contact-form {
+  text-align: center; }
+  .contact-form .btn-container {
+    margin-top: 50px; }
+
+.footer {
+  height: 300px;
+  background-color: #353436;
+  display: flex;
+  color: white; }
+  .footer div {
+    margin: auto; }
+  .footer .left ul a {
+    color: white;
+    text-decoration: none; }
+  .footer .left ul a:hover {
+    color: #ab2828; }
+  .footer .left ul li {
+    list-style: none; }
+  .footer .right .icons-container {
+    margin: auto; }
+    .footer .right .icons-container a {
+      font-size: 30px;
+      color: white;
+      margin: 0 10px; }
+    .footer .right .icons-container a:hover {
+      color: #ab2828; }
+
+.credit {
+  background-color: #353436;
+  color: white;
+  font-size: 12px;
+  text-align: right;
+  padding: 10px; }
+  .credit a {
+    color: #ab2828; }

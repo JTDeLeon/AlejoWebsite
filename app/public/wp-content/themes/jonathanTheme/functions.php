@@ -2,6 +2,7 @@
 
 function styles_and_scripts() {
   wp_enqueue_script('main_js', get_theme_file_uri('/js/scripts.js'), NULL, '1.0', true);
+  wp_enqueue_script('font_awesome', '//use.fontawesome.com/f8233e3073.js', NULL, '1.0', true);
   wp_enqueue_style('main_styles', get_stylesheet_uri('style.css'));
   wp_enqueue_style('lato-google-fonts', '//fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
   wp_enqueue_style('greatvibes-google-fonts', '//fonts.googleapis.com/css?family=Great+Vibes');
